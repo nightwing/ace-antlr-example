@@ -1,0 +1,25 @@
+{
+  "name": "ace-antlr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "my-worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ace-builds": "^1.4.2",
+    "antlr4": "^4.7.2"
+  },
+  "devDependencies": {
+    "antlr4-webpack-loader": "^0.1.1",
+    "file-loader": "^3.0.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
+    "worker-loader": "^2.0.0"
+  }
+}
